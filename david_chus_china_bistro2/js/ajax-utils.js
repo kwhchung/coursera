@@ -8,7 +8,7 @@
       return (new ActiveXObject("Microsoft.XMLHTTP"));
     }else{
       alert("Ajax is not supported!");
-      return(null);
+      return null;
     }
   }
 
